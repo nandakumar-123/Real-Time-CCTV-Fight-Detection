@@ -1,0 +1,40 @@
+# ==============================================================================
+# CCTV AI Fight Detection - Requirements
+# Note: For CUDA-accelerated PyTorch on Windows, install PyTorch first via:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# Or for CPU-only:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# ==============================================================================
+
+# Core Deep Learning & Vision Models
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.38.0
+timm>=0.9.12
+huggingface-hub>=0.20.0
+
+# Video & Image Processing
+opencv-python>=4.8.0
+av>=11.0.0
+Pillow>=10.0.0
+
+# Numerical, Scientific & Data Management
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Visualization & Reporting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web Application & Dashboard
+streamlit>=1.31.0
+
+# System, Hardware & Environment
+python-dotenv>=1.0.0
+psutil>=5.9.0
+
+# Testing & Quality
+pytest>=7.4.0
+
