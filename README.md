@@ -1,4 +1,6 @@
-# CCTV AI Fight Detection System
+# Real-Time-CCTV-Fight-Detection
+
+> **Quick Start:** For a complete step-by-step list of terminal commands from virtual environment creation to running the Streamlit dashboard, see **[RUN_COMMANDS.md](file:///c:/Users/Soundar/Documents/fight_detection/RUN_COMMANDS.md)**.
 
 A modular, hardware-aware deep learning system for automated physical fight and violence detection in surveillance footage using **VideoMAE V2 Base** transfer learning.
 
@@ -223,7 +225,9 @@ pytest -v
 ```
 
 # Stage 3: Full fine-tuning (if supported by your hardware)
+
 python -m training.train --stage 3 --epochs 5 --resume checkpoints/best_model.pth
+
 ```
 
 ### Step 5: Independent Evaluation
@@ -282,6 +286,8 @@ pytest -v
 ## 📜 Future 24/7 Live CCTV Deployment
 
 The initial scope covers uploaded video testing and offline fine-tuning. For full 24/7 live RTSP camera streams, connect an RTSP stream loop into `inference/video_inference.py` using OpenCV or PyAV with an alert webhook dispatcher.
-#   R e a l - T i m e - C C T V - F i g h t - D e t e c t i o n  
- #   R e a l - T i m e - C C T V - F i g h t - D e t e c t i o n  
- 
+#� �R�e�a�l�-�T�i�m�e�-�C�C�T�V�-�F�i�g�h�t�-�D�e�t�e�c�t�i�o�n�
+�
+�#� �R�e�a�l�-�T�i�m�e�-�C�C�T�V�-�F�i�g�h�t�-�D�e�t�e�c�t�i�o�n�
+�
+�
