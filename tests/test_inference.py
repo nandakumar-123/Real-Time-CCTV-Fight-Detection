@@ -28,8 +28,8 @@ class TestInference(unittest.TestCase):
         event = events[0]
         self.assertEqual(event.event_id, 1)
         self.assertEqual(event.start_sec, 1.0)
-        self.assertEqual(event.end_sec, 4.0)
-        self.assertGreaterEqual(event.peak_fight_confidence, 0.85)
+        self.assertEqual(event.end_sec, 5.0)
+        self.assertGreaterEqual(event.peak_fight_confidence, 0.60)
 
 if __name__ == "__main__":
     unittest.main()

@@ -12,9 +12,13 @@ import numpy as np
 
 try:
     import torch
-    import torchvision.transforms.functional as TF
 except ImportError:
     torch = None
+
+try:
+    import torchvision.transforms.functional as TF
+except ImportError:
+    TF = None
 
 from config.settings import settings
 from utils.logger import app_logger
